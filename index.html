@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul>
+        <li class="list-style">
+            <div id="weather">
+                Your town :
+                <span></span>
+                <span></span>
+            </div>
+        </li>
+        <li class="list-style">
+            <div id="weather2">
+                This picture :
+                <span></span>
+                <span></span>
+            </div>
+        </li>
+    </ul>
+    <div class="login">
+        <form id="login-form" class="hidden">
+            <div>
+                <input class="name" type="text" placeholder="What is your name?">
+            </div>
+            <div>
+                <input id="submit" type="submit" value="log in">
+            </div>
+        </form>
+    </div>
+    <h2 id="date">00:00:00</h2>
+    <h1 id="greeting" class="hidden"></h1>
+    <div id="todo-wrap" class="hidden">
+        <form id="todo-form">
+            <input class="list" type="text" placeholder="Write a To Do List and Press Enter">
+        </form>
+        <ul id="todo-list">
+
+        </ul>
+    </div>
+
+    <script src="hello.js"></script>
+    <script src="time.js"></script>
+    <script src="list.js"></script>
+    <script src="back.js"></script>
+    <script src="weather.js"></script>
+
+</body>
+
+</html>
